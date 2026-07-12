@@ -37,23 +37,30 @@
         <p><strong>Role:</strong> Hardware &amp; UI Development, group of 3</p>
         <p><strong>Technologies:</strong> KiCad, ESP32-S3, LVGL, SquareLine Studio, Arduino IDE</p>
         <p><a href="https://m7delacruz.wixsite.com/brain-buddies">The Mindful Crew</a></p>
-        </article>
+        <iframe
+          src="https://www.youtube.com/embed/MJz8hiaSKsE"
+          title="Assistive Device video"
+          width="300"
+          height="200"
+          allowfullscreen>
+        </iframe>
+      </article>
 
-        <article>
-          <h2>Vehicle Steering Control with PID &amp; Lead-Lag Compensator</h2>
-          <p>An ECE 171A project designing and comparing two closed-loop controllers for a 
-            linearized vehicle steering plant.</p>
-          <ul>
-            <li>Derived the transfer function from the linearized state space model and confirmed 
-              open loop stability via pole/zero, step response, and Bode analysis.</li>
-            <li>Found that proportional only control produced an unstable closed loop system; 
-              adding integral and derivative terms yielded a stable PID design.</li>
-            <li>Designed a lead lag compensator using root locus placement; found it stable but with
-              lower phase margin and higher overshoot than the PID design.</li>
-          </ul>
-          <p><strong>Role:</strong> Solo project, ECE 171A</p>
-          <p><strong>Technologies:</strong> MATLAB, Control System Toolbox</p>
-        </article>
+      <article>
+        <h2>Vehicle Steering Control with PID &amp; Lead-Lag Compensator</h2>
+        <p>An ECE 171A project designing and comparing two closed-loop controllers for a 
+          linearized vehicle steering plant.</p>
+        <ul>
+          <li>Derived the transfer function from the linearized state space model and confirmed 
+            open loop stability via pole/zero, step response, and Bode analysis.</li>
+          <li>Found that proportional only control produced an unstable closed loop system; 
+            adding integral and derivative terms yielded a stable PID design.</li>
+          <li>Designed a lead lag compensator using root locus placement; found it stable but with
+            lower phase margin and higher overshoot than the PID design.</li>
+        </ul>
+        <p><strong>Role:</strong> Solo project, ECE 171A</p>
+        <p><strong>Technologies:</strong> MATLAB, Control System Toolbox</p>
+      </article>
 
       <article>
         <h2>Autonomous Line Following Robot</h2>
@@ -75,6 +82,9 @@
 
       <article>
         <h2>PrivTag — Low-Power Bluetooth Loss-Detection Tag</h2>
+        <svg viewBox="0 0 24 24" width="40" height="40" aria-label="Bluetooth icon">
+          <path d="M12 2 L12 22 L18 17 L9 10 L18 7 L12 2" fill="none" stroke="#ff69b4" stroke-width="2.5" />
+        </svg>
         <p>A low-power tracker built for CSE 190 that detects when an item has been left behind and alerts nearby phone over Bluetooth.</p>
         <ul>
           <li>Wrote I2C/accelerometer drivers and a found/lost state machine driven by hardware interrupts.</li>
@@ -106,14 +116,13 @@
   </main>
 
   <footer>
-    <p>&copy; 2026 Giselle Mendoza.</p>
     <nav>
       <ul>
         <li><a href="https://linkedin.com/in/giselle-mendoza">LinkedIn</a></li>
         <li><a href="mailto:g1mendoza@ucsd.edu">Email</a></li>
       </ul>
     </nav>
+    <p>&copy; 2026 Giselle Mendoza.</p>
   </footer>
 </body>
 </html>
-
